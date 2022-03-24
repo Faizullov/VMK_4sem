@@ -339,7 +339,8 @@ int main(){
     cout << " QQQQQ\n";
     lst.print();
     lst.empty();
-    cout << "ADWQ\n";
+    
+    cout << "AIRAT\n";
     Object obj1;
     return 0;
 }
