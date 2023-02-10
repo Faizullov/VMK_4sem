@@ -1,0 +1,11 @@
+program
+begin
+var a: int; {qwe}
+var check: bool;
+check = true;
+if check == true then
+	write(2);
+a = 2;
+
+end
+@

@@ -1,0 +1,37 @@
+program {
+	int a = 51, b =6, c, k;
+	bool q = true;
+	bool r = false;
+	string x = "abc", y, z = "abcd";
+	c = (a+b)*2;
+	for (k = 0; k < 2; k = k + 1){
+		write(k);
+		break;
+	}
+	if (z > x) {
+		write("z > x");
+	} else {
+		write("z <= x");
+	}
+	if (c >= 100 or x == z)
+	{
+		read(y);
+		write(y);
+		write(x+y+z,c);
+	}
+	else {
+		c = a =21;
+	}
+	back:
+	if (c <= 100){
+		goto out;
+	} else
+	{
+		c = c -5;
+		write(c);
+		x = x + "step";
+		goto back;
+	}
+	out:
+	write(x);
+}
